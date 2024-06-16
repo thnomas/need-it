@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        nav {
+            background-color: rgb(5, 221, 149);
+            padding: 20px;
+        }
+
+        .list {
+            margin-top: 20px;
+            padding: 10px;
+        }
+        input {
+            height: 25px;
+            padding-left: 10px;
+        }
+        input:focus {
+            border: red;
+        }
+        .item {
+            background-color: rgb(235, 235, 235);
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: inset;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <input type="text" id="myInput" placeholder="Add an item..">
+    </nav>
+    
+    <div class="list" id="list"></div>   
+
+    <script src="script.js"></script>
+</body>
+</html>
